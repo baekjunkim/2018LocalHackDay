@@ -44,12 +44,7 @@ def scrapNewsList(temp):
     
     newsUrl = "https://www.bing.com/news"
     driver.get(newsUrl)
-    driver.get(driver.current_url)
-    driver.get(driver.current_url)
     time.sleep(2)
-    
-    newsSearch = driver.find_element_by_name('q')
-    newsSearch.send_keys("abcdefgabcdefg")
     newsSearch.send_keys(Keys.ENTER)
     
     for trend in temp:
