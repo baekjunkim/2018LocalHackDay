@@ -3,8 +3,8 @@ from time import sleep
 import random
 import webbrowser
 
-userId = "9176132006"
-userPw = "132435"
+userId = ""
+userPw = ""
 
 canvasHeight = 1000
 canvasWidth = 1000
