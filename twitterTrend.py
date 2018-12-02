@@ -7,10 +7,10 @@ from bs4 import BeautifulSoup
 from selenium import webdriver      
 from selenium.webdriver.common.keys import Keys
 
-userId = ""
-userPw = ""
+userId = "**Your Twitter ID**"
+userPw = "**Your Twitter Password"
 
-driver = webdriver.Chrome("C:\\Users\\**UserUserID**\\Downloads\\chromedriver.exe")
+driver = webdriver.Chrome("chromedriver.exe")
 
 def login(userId = userId, userPw = userPw):
 
